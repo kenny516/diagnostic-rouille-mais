@@ -1,0 +1,24 @@
+
+
+# Environnement Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.matplotlib/
+
+# Fichiers locaux et temporaires
+tmp/
+uploads/*
+!uploads/.gitkeep
+
+# Les modèles entraînés et les résultats du TP sont volontairement versionnés :
+# ils sont légers et permettent de lancer immédiatement la démonstration.
+
+# Outils locaux
+.agents/
+.codex/
+
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md

@@ -1,0 +1,64 @@
+{
+  "status": "OK",
+  "checks": {
+    "dataset": {
+      "saines": 400,
+      "malades": 400,
+      "total": 800
+    },
+    "audit": {
+      "images_valides": 800,
+      "doublons_sha256": 0,
+      "images_signalees": 9
+    },
+    "features": {
+      "forme": [
+        800,
+        5
+      ],
+      "colonnes": [
+        "ID_Image",
+        "pct_rouille",
+        "rugosite",
+        "heterogeneite_saturation",
+        "label_malade"
+      ],
+      "valeurs_manquantes": 0
+    },
+    "max_minority": {
+      "variables_evaluees": 3,
+      "meilleure_variable": "pct_rouille",
+      "meilleure_purete": 0.97375
+    },
+    "comparaison_modeles": {
+      "modeles": 4,
+      "images_test": 160,
+      "meilleur_recall": 1.0
+    },
+    "artefacts": {
+      "modeles": [
+        "arbre_max_minority.joblib",
+        "foret_max_minority.joblib",
+        "arbre_scikit_gini.joblib",
+        "foret_scikit_gini.joblib",
+        "modele_deploiement.pkl"
+      ],
+      "figures": [
+        "leaf_mask_examples.png",
+        "image_quality_distributions.png",
+        "model_performance.png",
+        "confusion_matrices.png",
+        "feature_importances.png"
+      ]
+    },
+    "deploiement": {
+      "modele": "Arbre maison Max-Minority",
+      "prediction_exemple_saine": 0,
+      "prediction_exemple_malade": 1
+    },
+    "application_et_documentation": {
+      "app_streamlit": true,
+      "documentation": "docs/ETAPES_TP.md"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "feature_columns": [
+    "pct_rouille",
+    "rugosite",
+    "heterogeneite_saturation"
+  ],
+  "random_state": 42,
+  "test_size": 0.2,
+  "n_train": 640,
+  "n_test": 160,
+  "positive_class": 1,
+  "positive_class_name": "malade",
+  "models": {
+    "Arbre maison\nMax-Minority": "arbre_max_minority.joblib",
+    "Foret maison\nMax-Minority": "foret_max_minority.joblib",
+    "Arbre scikit-learn\nGini": "arbre_scikit_gini.joblib",
+    "Foret scikit-learn\nGini": "foret_scikit_gini.joblib"
+  }
+}

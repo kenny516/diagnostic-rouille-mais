@@ -1,0 +1,13 @@
+modele,caracteristique,importance
+Arbre maison - Max-Minority,pct_rouille,0.9869281045751634
+Arbre maison - Max-Minority,rugosite,0.013071895424836676
+Arbre maison - Max-Minority,heterogeneite_saturation,0.0
+Foret maison - Max-Minority,pct_rouille,0.4726215116540692
+Foret maison - Max-Minority,rugosite,0.33799222970105386
+Foret maison - Max-Minority,heterogeneite_saturation,0.18938625864487704
+Arbre scikit-learn - Gini,pct_rouille,0.9779146775968355
+Arbre scikit-learn - Gini,rugosite,0.012859410247135735
+Arbre scikit-learn - Gini,heterogeneite_saturation,0.009225912156028748
+Foret scikit-learn - Gini,pct_rouille,0.638267278939695
+Foret scikit-learn - Gini,rugosite,0.2487896504296436
+Foret scikit-learn - Gini,heterogeneite_saturation,0.11294307063066147

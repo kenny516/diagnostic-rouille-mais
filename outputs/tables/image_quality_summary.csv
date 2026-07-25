@@ -1,0 +1,3 @@
+classe,images,doublons,ratio_fond_sombre_moyen,ratio_feuille_moyen,luminosite_mediane,nettete_mediane,images_invalides
+saine,400,0,0.0005,0.9999,150.738,252.8953,0
+malade,400,0,0.3125,0.6924,131.0556,2093.7459,0

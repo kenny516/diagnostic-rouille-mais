@@ -1,0 +1,4 @@
+caracteristique,seuil_optimal,purete_parent,purete_split,gain_purete
+pct_rouille,0.626913566118013,0.5,0.97375,0.47375
+rugosite,36.992305755615234,0.5,0.81375,0.31375
+heterogeneite_saturation,0.11325713992118835,0.5,0.7125,0.21250000000000002
